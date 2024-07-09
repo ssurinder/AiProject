@@ -1,0 +1,21 @@
+.login_sidebar {
+    background-color: $bg-sidebar;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.login_box {
+    width: 500px;
+    max-width: 100%;
+}
+.all_btn {
+    background-color: $dark;
+}
+.or_text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $border-color;
+}
